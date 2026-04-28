@@ -1,4 +1,4 @@
- ---
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -496,7 +496,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: shaikmustafa/currencyservice:latest
+        image: satya0205/currencyservice:latest
         ports:
         - name: grpc
           containerPort: 7000
